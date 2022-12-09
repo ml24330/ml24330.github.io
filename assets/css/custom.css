@@ -1,0 +1,43 @@
+.page-section {
+    padding: 50px 0;
+}
+
+.navbar-shrink {
+    background-color: grey !important;
+}
+
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand img {
+        height: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    #mainNav .navbar-brand {
+        font-size: 1.1em;
+    }
+
+    #mainNav .navbar-brand img {
+        height: 25px;
+        padding-left: 0px;
+    }
+}
+
+
+
+
+#mainNav {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mainNav .navbar-brand,
+.nav-link {
+    color: black !important;
+}
