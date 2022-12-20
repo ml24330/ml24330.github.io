@@ -6,7 +6,7 @@
     background-color: grey !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
@@ -16,14 +16,14 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
 
     #mainNav .navbar-brand {
-        font-size: 1.1em;
+        font-size: 1.35em;
     }
 
     #mainNav .navbar-brand img {
-        height: 25px;
+        height: 30px;
         padding-left: 0px;
     }
 }
